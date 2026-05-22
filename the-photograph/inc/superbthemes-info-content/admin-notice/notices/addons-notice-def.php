@@ -29,6 +29,6 @@ $nonce_url = wp_nonce_url(
         <?php echo esc_html__("Install the theme companion plugin to access all new features and customization options.", 'the-photograph'); ?>
     </p>
     <p>
-        <a style='margin-bottom:15px;' class='button button-large button-primary' href="<?php echo esc_url($nonce_url); ?>"><?php echo esc_html__("Install & Activate", 'the-photograph'); ?></a>
+        <a class='button button-large button-primary spbtic-addons-install' href="<?php echo esc_url($nonce_url); ?>"><span class="dashicons dashicons-update hidden spbtic-addons-spinner"></span><span class="spbtic-addons-label"><?php echo esc_html__("Install & Activate", 'the-photograph'); ?></span></a>
     </p>
 </div>
